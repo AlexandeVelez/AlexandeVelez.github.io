@@ -1,76 +1,48 @@
 body {
-  height: 100%;
+  background-color: #000000;
+  color: #ffffff;
 }
 
-.thumbsBox {
-  width: 50%;
-  height: 50%;
+div {
+  border: 2px solid #ffffff
 }
 
-.pTop {
-  position: absolute;
-  top: 0px;
-}
-
-.pBot {
-  position: absolute;
-  bottom: 0px;
-}
-
-.pLeft {
-  position: absolute;
-  left: 0px;
-}
-
-.pRight {
-  position: absolute;
-  right: 0px;
-}
-
-#tUp {
-  background-color: #00FF00;
-  font-size: 40px;
+#headerBox {
+  color: #ffffff;
+  font-size: 56px;
   text-align: center;
-  border: 5px solid #000000;
-  line-height: 400px;
+  margin: 0px 18% 30px 18%;
+  padding: 5px 0px
 }
 
-#tWiggle {
-  background-color: #6ADDFF;
-  font-size: 40px;
-  text-align: center;
-  border: 5px solid #000000;
-  line-height: 400px;
+.linkBox {
+  color: #ffffff;
+  font-size: 24px;
+  padding: 5px 20px;
+  margin: 10px auto;
 }
 
-#tDown {
-  background-color: #ff0000;
-  font-size: 40px;
-  text-align: center;
-  border: 5px solid #000000;
-  line-height: 400px;
+.blogBox {
+  color: #ffffff;
+  font-size: 22px;
+  margin: 5% 18%;
+  padding: 20px 15px;
 }
 
-#tOops {
-  background-color: #FFFF00;
-  font-size: 40px;
-  text-align: center;
-  border: 5px solid #000000;
-  line-height: 400px;
+#contentBox {
+  border: 0px
 }
 
-#tUp:hover {
-  background-color: #9EFF9E
+#menuBox {
+  display: flex;
+  justify-content: space-around;
+  margin: auto 30% 100px 30%
 }
 
-#tWiggle:hover {
-  background-color: #AEE7F8;
+a:link, a:visited {
+  color: #22ecf0
 }
 
-#tDown:hover {
-  background-color: #FF7A7A;
-}
-
-#tOops:hover {
-  background-color: #FFFF7E;
+a:hover {
+  color: #ffffff
 }

@@ -1,0 +1,41 @@
+body {
+  background-color: #000000;
+}
+
+#everythingBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.memoryBoxTop {
+  border: 2px solid #00ffff;
+  color: #000000;
+  display: flex;
+  padding: 10%;
+  justify-content: center;
+  margin: 0px 85px 0px 0px;
+  background-color: #00ffff;
+  text-align: center;
+  align-items: center;
+}
+
+.memoryBoxBot {
+  border: 2px solid #00ffff;
+  color: #000000;
+  display: flex;
+  padding: 10%;
+  justify-content: center;
+  margin: 85px 85px 0px 0px;
+  background-color: #00ffff;
+  text-align: center;
+  align-items: center;
+}
+
+#startBox {
+  background-color: #00ffff;
+  color: #000000;
+  padding: 10px;
+}
+
+#startBox hover
